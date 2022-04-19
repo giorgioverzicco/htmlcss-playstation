@@ -63,9 +63,19 @@ body {
   font-size: 18px;
 }
 
+.hero__item-img--selected {
+  outline: 2px solid #005ac6;
+  outline-offset: 3px;
+}
+
 .hero__item-img {
   border-radius: 20px;
   cursor: pointer;
+}
+
+.hero__item-img:hover {
+  outline: 2px solid #005ac6;
+  outline-offset: 3px;
 }
 
 /* ======================
