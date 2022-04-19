@@ -10,14 +10,27 @@ body {
   DEBUG
  ====================== */
 
-.debug main {
-  height: 100vh;
-  background-color: green;
-}
-
 .debug footer {
   height: 300px;
   background-color: blue;
+}
+
+/* ======================
+  COMMON
+ ====================== */
+
+.img-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ======================
+  LAYOUT
+ ====================== */
+
+.hero__container {
+  padding-top: 300px;
 }
 
 /* ======================
@@ -38,6 +51,18 @@ body {
   width: 10px;
 }
 
+.hero__logo-img {
+  width: 300px;
+}
+
+.hero__title {
+  font-size: 42px;
+}
+
+.hero__motto {
+  font-size: 18px;
+}
+
 /* ======================
   BUTTONS
  ====================== */
@@ -54,4 +79,22 @@ body {
 
 .btn-search__img {
   width: 30px;
+}
+
+.btn-buy {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #cd3d0f;
+  border-radius: 30px;
+}
+
+/* ======================
+  UNIQUE
+ ====================== */
+
+#hero {
+  background-image: url("../img/jumbo-bg.png");
 }
