@@ -11,9 +11,84 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- /css -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- /google fonts -->
   </head>
-  <body>
-    <header></header>
+  <body class="debug">
+    <header>
+      <div class="producer-banner d-flex justify-content-end align-items-center p-2">
+        <a class="producer-banner__link" href="#">
+          <img src="img/sony_logo.svg" alt="Sony Logo">
+        </a>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white fw-bold">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/play_logo.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span>Giochi</span>
+                <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span>Hardware</span>
+                <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span>Servizi</span>
+                <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span>Novità</span>
+                <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span>Fai acquisti</span>
+                <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span>Supporto</span>
+                <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span>My PlayStation</span>
+                  <img class="nav-link__down-arrow" src="img/chevron-down-solid.svg" alt="">
+                </a>
+              </li>
+            </ul>
+            <button class="btn btn-dark btn-login">Accedi</button>
+            <button class="btn">
+              <img class="btn-search__img" src="img/lens.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
     <main></main>
     <footer></footer>
 
