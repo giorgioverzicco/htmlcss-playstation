@@ -33,6 +33,10 @@ body {
   padding-top: 300px;
 }
 
+.console {
+  padding-top: 100px;
+}
+
 /* ======================
   COMPONENTS
  ====================== */
@@ -76,6 +80,14 @@ body {
 .hero__item-img:hover {
   outline: 2px solid #005ac6;
   outline-offset: 3px;
+}
+
+.console__title {
+  font-size: 42px;
+}
+
+.console__text {
+  font-size: 20px;
 }
 
 /* ======================
