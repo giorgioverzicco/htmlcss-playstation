@@ -10,14 +10,6 @@ body {
   DEBUG
  ====================== */
 
-.debug header {
-  background-color: purple;
-}
-
-.debug .producer-banner {
-  background-color: coral;
-}
-
 .debug main {
   height: 100vh;
   background-color: green;
@@ -34,6 +26,7 @@ body {
 
 .producer-banner {
   height: 40px;
+  background-color: #000;
 }
 
 .producer-banner__link {
