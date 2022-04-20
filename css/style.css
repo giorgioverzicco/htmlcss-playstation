@@ -29,7 +29,11 @@ body {
   LAYOUT
  ====================== */
 
-.hero__container {
+.wrapper-small {
+  padding-top: 30px;
+}
+
+.wrapper-large {
   padding-top: 300px;
 }
 
@@ -55,15 +59,15 @@ body {
   width: 10px;
 }
 
-.hero__logo-img {
+.game__logo-img {
   width: 300px;
 }
 
-.hero__title {
+.game__title {
   font-size: 42px;
 }
 
-.hero__motto {
+.game__motto {
   font-size: 18px;
 }
 
@@ -145,4 +149,8 @@ body {
 
 #hero-bg {
   background-image: url("../img/jumbo-bg.png");
+}
+
+#new-game-bg {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
