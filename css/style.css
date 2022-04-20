@@ -191,6 +191,18 @@ footer {
   width: 600px;
 }
 
+.discounts__img,
+.socials__img {
+  cursor: pointer;
+  transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.discounts__img:hover,
+.socials__img:hover {
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
 .footer__logo {
   width: 150px;
 }
