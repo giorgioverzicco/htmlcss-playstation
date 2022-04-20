@@ -75,7 +75,7 @@ footer {
   background-color: #bebcbb;
 }
 
-.ps-store {
+.ps-now {
   background-color: #00439c;
 }
 
@@ -106,6 +106,14 @@ footer {
   font-size: 18px;
 }
 
+.game-item {
+  transition: transform 0.4s;
+}
+
+.game-item:hover {
+  transform: translateY(-5px);
+}
+
 .game-item-img--selected {
   outline: 2px solid #005ac6;
   outline-offset: 3px;
@@ -114,9 +122,11 @@ footer {
 .game-item-img {
   border-radius: 20px;
   cursor: pointer;
+  transition: box-shadow 0.4s;
 }
 
 .game-item-img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   outline: 2px solid #005ac6;
   outline-offset: 3px;
 }
