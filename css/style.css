@@ -50,6 +50,10 @@ sup {
   padding-top: 100px;
 }
 
+.ps-plus {
+  background-color: #bebcbb;
+}
+
 /* ======================
   COMPONENTS
  ====================== */
@@ -140,6 +144,14 @@ sup {
   font-size: 22px;
 }
 
+.ps-plus__logo {
+  width: 400px;
+}
+
+.ps-plus__banner {
+  width: 600px;
+}
+
 /* ======================
   BUTTONS
  ====================== */
@@ -165,6 +177,11 @@ sup {
 
 .btn-findout {
   font-size: 20px;
+}
+
+.btn-ps-plus {
+  background-color: #d9dadc;
+  color: #005ac6;
 }
 
 /* ======================
