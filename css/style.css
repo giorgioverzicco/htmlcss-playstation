@@ -54,6 +54,10 @@ sup {
   background-color: #bebcbb;
 }
 
+.ps-store {
+  background-color: #00439c;
+}
+
 /* ======================
   COMPONENTS
  ====================== */
@@ -144,11 +148,11 @@ sup {
   font-size: 22px;
 }
 
-.ps-plus__logo {
+.banner__logo {
   width: 400px;
 }
 
-.ps-plus__banner {
+.banner__games {
   width: 600px;
 }
 
