@@ -90,6 +90,32 @@ body {
   font-size: 20px;
 }
 
+.console__item {
+  position: relative;
+  filter: opacity(0.65);
+  cursor: pointer;
+}
+
+.console__item--selected {
+  filter: opacity(1);
+}
+
+.console__item:hover::after,
+.console__item--selected::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 12px);
+  height: 2px;
+  background-color: #005ac6;
+}
+
+.console__item-img {
+  width: 100px;
+}
+
 /* ======================
   BUTTONS
  ====================== */
