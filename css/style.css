@@ -234,6 +234,24 @@ footer {
 .btn-ps-plus {
   background-color: #d9dadc;
   color: #005ac6;
+  transition: outline 0.1s, outline-offset 0.1s;
+}
+
+.btn-ps-plus:hover,
+.btn-ps-plus:focus {
+  color: #005ac6;
+  outline: 2px solid #d9dadc;
+  outline-offset: 2px;
+}
+
+.btn-ps-now {
+  transition: outline 0.1s, outline-offset 0.1s;
+}
+
+.btn-ps-now:hover,
+.btn-ps-now:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 /* ======================
