@@ -30,6 +30,19 @@ footer {
   background-image: url(../img/chevron-down-solid.svg);
   background-repeat: no-repeat;
   border: none;
+  transition: background-image 0.4s;
+}
+
+.dropdown-toggle:hover::after {
+  background-image: url(../img/chevron-down-solid-hover.svg);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: #005ac6;
 }
 
 /* ======================
