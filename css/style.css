@@ -20,6 +20,19 @@ footer {
 }
 
 /* ======================
+  BOOTSTRAP
+ ====================== */
+
+.dropdown-toggle::after {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  background-image: url(../img/chevron-down-solid.svg);
+  background-repeat: no-repeat;
+  border: none;
+}
+
+/* ======================
   COMMON
  ====================== */
 
@@ -66,11 +79,6 @@ footer {
 
 .producer-banner__link {
   width: 100px;
-}
-
-.nav-link__down-arrow {
-  margin-left: 2px;
-  width: 10px;
 }
 
 .game__logo-img {
@@ -163,20 +171,6 @@ footer {
 /* ======================
   BUTTONS
  ====================== */
-
-.btn-login {
-  font-size: 18px;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 30px;
-}
-
-.btn-search__img {
-  width: 30px;
-}
 
 .btn-buy {
   color: #fff;
