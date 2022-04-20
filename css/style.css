@@ -7,21 +7,16 @@ body {
 }
 
 /* ======================
-  DEBUG
- ====================== */
-
-.debug footer {
-  height: 300px;
-  background-color: blue;
-}
-
-/* ======================
   GLOBAL
  ====================== */
 
 sup {
   line-height: 0;
   font-size: 20px;
+}
+
+footer {
+  background-color: #00439c;
 }
 
 /* ======================
@@ -154,6 +149,10 @@ sup {
 
 .banner__games {
   width: 600px;
+}
+
+.footer__logo {
+  width: 150px;
 }
 
 /* ======================
