@@ -107,7 +107,7 @@ footer {
 }
 
 .game-item {
-  transition: transform 0.4s;
+  transition: transform 0.2s;
 }
 
 .game-item:hover {
@@ -122,7 +122,7 @@ footer {
 .game-item-img {
   border-radius: 20px;
   cursor: pointer;
-  transition: box-shadow 0.4s;
+  transition: box-shadow 0.2s;
 }
 
 .game-item-img:hover {
