@@ -204,6 +204,12 @@ footer {
   background-color: #cd3d0f;
 }
 
+.btn-buy:hover,
+.btn-buy:focus {
+  color: #fff;
+  background-color: #b1360d;
+}
+
 .btn-findout {
   font-size: 20px;
 }
