@@ -212,6 +212,10 @@ footer {
   margin-right: 10px;
 }
 
+.language-choose__text {
+  cursor: pointer;
+}
+
 /* ======================
   BUTTONS
  ====================== */
