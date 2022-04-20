@@ -222,7 +222,13 @@ footer {
 }
 
 .btn-findout {
-  font-size: 20px;
+  transition: outline 0.1s, outline-offset 0.1s;
+}
+
+.btn-findout:hover,
+.btn-findout:focus {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
 }
 
 .btn-ps-plus {
