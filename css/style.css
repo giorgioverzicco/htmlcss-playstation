@@ -125,7 +125,7 @@ footer {
   transition: box-shadow 0.2s;
 }
 
-.game-item-img:hover {
+.hero__list .game-item-img:hover {
   box-shadow: 0 8px 8px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -161,6 +161,17 @@ footer {
 
 .console__item-img {
   width: 100px;
+}
+
+.new-game__img {
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.new-game__img:hover {
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
 }
 
 .product__title {
