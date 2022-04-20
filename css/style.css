@@ -16,6 +16,15 @@ body {
 }
 
 /* ======================
+  GLOBAL
+ ====================== */
+
+sup {
+  line-height: 0;
+  font-size: 20px;
+}
+
+/* ======================
   COMMON
  ====================== */
 
@@ -48,6 +57,8 @@ body {
 .producer-banner {
   height: 40px;
   background-color: #000;
+  position: relative;
+  z-index: 9999;
 }
 
 .producer-banner__link {
@@ -91,7 +102,7 @@ body {
 }
 
 .console__text {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .console__item {
@@ -120,6 +131,15 @@ body {
   width: 100px;
 }
 
+.product__title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.product__text {
+  font-size: 22px;
+}
+
 /* ======================
   BUTTONS
  ====================== */
@@ -141,6 +161,10 @@ body {
 .btn-buy {
   color: #fff;
   background-color: #cd3d0f;
+}
+
+.btn-findout {
+  font-size: 20px;
 }
 
 /* ======================
